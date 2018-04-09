@@ -7,6 +7,13 @@
 [![Latest Unstable Version](https://poser.pugx.org/dhii/set/v/unstable)](https://packagist.org/packages/dhii/set)
 [![This package complies with Dhii standards](https://img.shields.io/badge/Dhii-Compliant-green.svg?style=flat-square)][Dhii]
 
-A set implementation
+## Details
+A set implementation.
 
-[Dhii]: https://github.com/Dhii/dhii
+### Classes
+- [`AddCapableOrderedList`][AddCapableOrderedList] -  A list that can have items added after creation. Will iterate over
+the items in the order they were added.
+
+[Dhii]:                                             https://github.com/Dhii/dhii
+
+[AddCapableOrderedList]:                            src/AddCapableOrderedList.php
